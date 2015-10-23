@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService3" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="imageHubSample">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=singnalrchat;AccountKey=IdCKXrswjcD+78dHQfqxJj4qIYVoz62fP50USk9MAmtL/b9s9czKkBRAyQ5CA+V4/M/+fvS3X/mXJVrUOj9Vnw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
